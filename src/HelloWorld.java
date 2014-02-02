@@ -2,11 +2,11 @@
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		HelloWorld2 helloWorld2 = new HelloWorld2();
+		HelloWorld helloWorld = new HelloWorld();
 		
-		System.out.print("Hello World\n");
+		System.out.print("Hello World 1\n");
 		
-		System.out.print(helloWorld2.sayHello2());
+		System.out.print(helloWorld.sayHello());
 
 	}
 
